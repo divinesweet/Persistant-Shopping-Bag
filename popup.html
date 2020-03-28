@@ -2,24 +2,38 @@
 <html>
   <head>
     <style>
-      body {}
-      .add_link{
+      body {width: 600px; height: 600ox}
+      a{
+        display: inline-block;
+      }
+      a:nth-child(2){
+        margin: 0 10px;
+        background: #333333;
+        padding: 2px 8px;
+        border-radius: 50%;
+        color: white;
+        font-weight: 800;
 
       }
+
     </style>
-    <title>Persistent Shopping Bag</title>
+    <title>My Shopping Bag</title>
+
+
   </head>
   <body>
 
-    <button id="add_link" onclick="add_item()">+</button>
-    <h3>Your Shopping List</h3>
+    <button id="add_link">+</button>
+    <h1>Your Shopping List</h1>
     <ol class="shopping_list">
-      <li><a href="#">New Link</a><span> edit</span><span> X</span></li>
+
 
     </ol>
 
-<script src="main.js" charset="utf-8"></script>
 
 
+    <script type="text/javascript" src="popup.js">
+
+    </script>
   </body>
 </html>
